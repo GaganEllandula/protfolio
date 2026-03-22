@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- FontAwesome for standard icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=resumeViewCheck">
+    <link rel="stylesheet" href="style.css?v=trainingWidthFinal">
 </head>
 
 <body>
@@ -45,6 +45,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#training">Training</a></li>
             <li><a href="#certifications">Certifications</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#resume-cta">Resume</a></li>
@@ -326,25 +327,39 @@
             </div>
         </section>
 
+        <!-- Training Section -->
+        <section id="training" class="training section reveal-on-scroll">
+            <h2 class="section-title">Training</h2>
+            <div class="training-card-clean glass stagger-item">
+                <div class="training-header-flex">
+                    <div class="training-icon-circle">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="training-header-content">
+                        <h3>A Guide To Machine Learning with Data Science</h3>
+                        <div class="training-date-pill">July 2025 &nbsp;|&nbsp; Chiper School</div>
+                    </div>
+                </div>
+
+                <p class="clean-description">
+                    Completed a comprehensive hybrid training program focusing on core data workflows, analytics, and
+                    model development. Gained practical hands-on experience using Python, Pandas, NumPy, and advanced
+                    data visualization libraries. Successfully built, trained, and evaluated machine learning models
+                    including a Loan Approval Prediction system with Logistic Regression and Decision Trees, while
+                    mastering essential data cleaning and feature engineering techniques.
+                </p>
+
+                <div class="clean-action">
+                    <a href="https://drive.google.com/file/d/1Cu8X3BSlR-Z6ZktlNVU_J7WymhLO2MlN/view?usp=drive_link"
+                        target="_blank" class="cert-link-clean">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </section>
+
         <section id="certifications" class="certifications section">
             <h2 class="section-title">Certifications</h2>
             <div class="projects-grid">
-                <div class="cert-card glass btn-magnetic" onclick="openModal('certModal4')">
-                    <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <div class="cert-info">
-                        <h3>ML with Data Science Training</h3>
-                        <p class="cert-issuer">Chiper School</p>
-                        <p class="cert-date">July 2025</p>
-                    </div>
-                </div>
-                <div class="cert-card glass btn-magnetic" onclick="openModal('certModal3')">
-                    <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
-                    <div class="cert-info">
-                        <h3>Data Analytics with Python</h3>
-                        <p class="cert-issuer">NPTEL</p>
-                        <p class="cert-date">April 2025</p>
-                    </div>
-                </div>
                 <div class="cert-card glass btn-magnetic" onclick="openModal('certModal1')">
                     <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
                     <div class="cert-info">
@@ -359,6 +374,14 @@
                         <h3>Build GenAI Apps with No-Code</h3>
                         <p class="cert-issuer">Infosys Springboard</p>
                         <p class="cert-date">September 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card glass btn-magnetic" onclick="openModal('certModal3')">
+                    <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                    <div class="cert-info">
+                        <h3>Data Analytics with Python</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">April 2025</p>
                     </div>
                 </div>
             </div>
@@ -482,7 +505,7 @@
                 <span class="close-modal" onclick="closeModal('certModal4')">&times;</span>
                 <div class="modal-header">
                     <div class="cert-icon large-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h3>ML with Data Science Training</h3>
+                    <h3>A Guide To Machine Learning with Data Science</h3>
                 </div>
                 <div class="modal-body">
                     <h4>Key Topics Covered</h4>
